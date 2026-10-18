@@ -1,0 +1,13 @@
+# Tested with Python 3.12.3 (Linux). See README.md for details.
+tensorflow==2.21.0
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+matplotlib==3.10.8
+seaborn==0.13.2
+joblib==1.5.3
+streamlit==1.66.0
+fastapi==0.143.3
+uvicorn==0.54.0
+notebook==7.6.3
+ipykernel==7.4.0

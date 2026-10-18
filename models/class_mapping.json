@@ -1,0 +1,12 @@
+{
+  "index_to_label": {
+    "0": "Low",
+    "1": "Medium",
+    "2": "High"
+  },
+  "label_to_index": {
+    "Low": 0,
+    "Medium": 1,
+    "High": 2
+  }
+}

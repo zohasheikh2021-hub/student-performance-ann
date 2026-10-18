@@ -1,0 +1,70 @@
+{
+  "trained_at_utc": "2026-10-17 17:35:01",
+  "random_seed": 42,
+  "feature_columns": [
+    "age",
+    "attendance_pct",
+    "study_hours_per_week",
+    "previous_score",
+    "assignment_completion_pct",
+    "internal_assessment_score",
+    "participation_score",
+    "sleep_hours_per_day",
+    "extracurricular_hours_per_week",
+    "failed_subjects"
+  ],
+  "training_feature_ranges": {
+    "age": {
+      "min": 17.0,
+      "max": 24.0
+    },
+    "attendance_pct": {
+      "min": 45.0,
+      "max": 100.0
+    },
+    "study_hours_per_week": {
+      "min": 2.0,
+      "max": 40.0
+    },
+    "previous_score": {
+      "min": 25.0,
+      "max": 100.0
+    },
+    "assignment_completion_pct": {
+      "min": 20.0,
+      "max": 100.0
+    },
+    "internal_assessment_score": {
+      "min": 20.0,
+      "max": 100.0
+    },
+    "participation_score": {
+      "min": 1.0,
+      "max": 10.0
+    },
+    "sleep_hours_per_day": {
+      "min": 4.0,
+      "max": 10.0
+    },
+    "extracurricular_hours_per_week": {
+      "min": 0.0,
+      "max": 18.0
+    },
+    "failed_subjects": {
+      "min": 0.0,
+      "max": 5.0
+    }
+  },
+  "hidden_units": [
+    16
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "scikit-learn": "1.8.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "joblib": "1.5.3"
+  }
+}
